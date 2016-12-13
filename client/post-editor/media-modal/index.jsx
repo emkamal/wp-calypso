@@ -64,7 +64,9 @@ export const EditorMediaModal = React.createClass( {
 			setView: noop,
 			resetView: noop,
 			view: ModalViews.LIST,
-			imageEditorProps: {}
+			imageEditorProps: {},
+			deleteMedia: () => {},
+			resetSiteIcon: () => {}
 		};
 	},
 
